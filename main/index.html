@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/style/scss/all.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
+    <title>Document</title>
+    <script src="assets/js/all.js"></script>
+</head>
+<body>
+    <section class="container">
+        <div class="input-group my-3">
+            <label for="newTodo" class="input-group-text">代辦事項</label>
+            <input type="text" class="form-control" id="newTodo" placeholder="準備要做的任務">
+            <button class="btn btn-primary" type="button" id="addTodo" >新增</button>
+        </div>
+        <div class="card">
+            <div class="d-flex justify-content-between align-items-center p-2 card-footer">
+                <span>還有<span class="text-danger" id="taskCount">0</span>筆任務</span>
+                <a href="#" id="clearTask">清除所有任務</a>
+            </div>
+            <ul class="list-group list-group-flush text-left list-unstyled" id="todoList">
+                
+            </ul>
+        </div>
+    </section>
+</body>
+</html>
